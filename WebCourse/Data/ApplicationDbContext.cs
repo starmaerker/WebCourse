@@ -15,6 +15,8 @@ namespace WebCourse.Data
         {
         }
 
+        public DbSet<Skill> Skills { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
